@@ -1,0 +1,697 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Srta. Chic — Coisas da Tata. Moda, acessórios e novidades escolhidas com carinho."
+  >
+
+  <meta name="theme-color" content="#1b100c">
+
+  <title>Srta. Chic | Coisas da Tata</title>
+
+  <!-- Fonte do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Ícones -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <!-- Nosso CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==============================
+       CABEÇALHO
+  =============================== -->
+
+  <header class="site-header" id="siteHeader">
+
+    <div class="container header-content">
+
+      <a href="#inicio" class="brand" aria-label="Página inicial">
+        <span class="brand-small">SRTA.</span>
+        <span class="brand-main">CHIC</span>
+        <span class="brand-subtitle">COISAS DA TATA</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Menu principal">
+
+        <a href="#inicio">Início</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre nós</a>
+
+        <button
+          class="nav-cart-button"
+          id="openCartButton"
+          type="button"
+          aria-label="Abrir carrinho"
+        >
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span>Carrinho</span>
+          <strong id="cartCount">0</strong>
+        </button>
+
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- ==============================
+         HERO
+    =============================== -->
+
+    <section class="hero-section" id="inicio">
+
+      <div class="hero-decoration hero-decoration-one"></div>
+      <div class="hero-decoration hero-decoration-two"></div>
+
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">
+            <i class="fa-solid fa-sparkles"></i>
+            SEU ESTILO, SUA ESSÊNCIA
+          </span>
+
+          <h1>
+            Seu estilo
+            <span>começa aqui.</span>
+          </h1>
+
+          <p>
+            Descubra peças e acessórios escolhidos para deixar
+            cada momento ainda mais especial.
+          </p>
+
+          <div class="hero-actions">
+
+            <a href="#produtos" class="button button-primary">
+              Comprar agora
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#sobre" class="button button-outline">
+              Conheça a loja
+            </a>
+
+          </div>
+
+          <div class="hero-benefits">
+
+            <div class="hero-benefit">
+              <i class="fa-solid fa-heart"></i>
+              <span>Escolhidos com carinho</span>
+            </div>
+
+            <div class="hero-benefit">
+              <i class="fa-solid fa-star"></i>
+              <span>Estilo para você</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hero-visual" aria-label="Destaque visual da loja">
+
+          <div class="hero-circle"></div>
+
+          <div class="hero-card hero-card-top">
+            <i class="fa-solid fa-sparkles"></i>
+            <span>Seu momento</span>
+          </div>
+
+          <div class="hero-placeholder">
+            <span>SRTA.</span>
+            <strong>CHIC</strong>
+            <small>COISAS DA TATA</small>
+          </div>
+
+          <div class="hero-card hero-card-bottom">
+            <strong>Seu estilo.</strong>
+            <span>Suas escolhas.</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         FAIXA DE DESTAQUE
+    =============================== -->
+
+    <section class="feature-strip" aria-label="Benefícios">
+
+      <div class="container feature-strip-content">
+
+        <div>
+          <i class="fa-solid fa-truck-fast"></i>
+          <span>Envio e entrega</span>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-shield-heart"></i>
+          <span>Compra com cuidado</span>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-credit-card"></i>
+          <span>Pagamento online</span>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Atendimento pelo WhatsApp</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         CATEGORIAS
+    =============================== -->
+
+    <section class="categories-section section-padding" id="categorias">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">EXPLORE</span>
+
+          <h2>
+            Encontre seu
+            <span>estilo favorito</span>
+          </h2>
+
+          <p>
+            Navegue pelas categorias e encontre algo especial para você.
+          </p>
+
+        </div>
+
+        <div class="category-grid">
+
+          <button
+            class="category-card"
+            type="button"
+            data-category="todos"
+          >
+            <span class="category-icon">
+              <i class="fa-solid fa-border-all"></i>
+            </span>
+            <strong>Todos</strong>
+            <small>Ver produtos</small>
+          </button>
+
+          <button
+            class="category-card"
+            type="button"
+            data-category="vestuario"
+          >
+            <span class="category-icon">
+              <i class="fa-solid fa-shirt"></i>
+            </span>
+            <strong>Vestuário</strong>
+            <small>Peças e novidades</small>
+          </button>
+
+          <button
+            class="category-card"
+            type="button"
+            data-category="acessorios"
+          >
+            <span class="category-icon">
+              <i class="fa-solid fa-gem"></i>
+            </span>
+            <strong>Acessórios</strong>
+            <small>Detalhes que encantam</small>
+          </button>
+
+          <button
+            class="category-card"
+            type="button"
+            data-category="novidades"
+          >
+            <span class="category-icon">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </span>
+            <strong>Novidades</strong>
+            <small>Confira as novidades</small>
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PRODUTOS
+    =============================== -->
+
+    <section class="products-section section-padding" id="produtos">
+
+      <div class="container">
+
+        <div class="section-heading section-heading-row">
+
+          <div>
+            <span class="eyebrow">NOSSO CATÁLOGO</span>
+
+            <h2>
+              Escolhas que
+              <span>combinam com você</span>
+            </h2>
+          </div>
+
+          <div class="catalog-status" id="catalogStatus">
+            Carregando produtos...
+          </div>
+
+        </div>
+
+        <div class="product-toolbar">
+
+          <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+              type="search"
+              id="productSearch"
+              placeholder="Buscar produto..."
+              aria-label="Buscar produto"
+            >
+
+          </div>
+
+          <select id="productSort" aria-label="Ordenar produtos">
+
+            <option value="default">Ordenar produtos</option>
+            <option value="price-asc">Menor preço</option>
+            <option value="price-desc">Maior preço</option>
+            <option value="name-asc">Nome: A-Z</option>
+
+          </select>
+
+        </div>
+
+        <div
+          class="product-grid"
+          id="productGrid"
+          aria-live="polite"
+        >
+
+          <!-- Os produtos do Supabase serão inseridos aqui -->
+
+          <div class="catalog-loading">
+
+            <i class="fa-solid fa-spinner fa-spin"></i>
+
+            <p>Carregando produtos...</p>
+
+          </div>
+
+        </div>
+
+        <div class="empty-catalog hidden" id="emptyCatalog">
+
+          <i class="fa-solid fa-box-open"></i>
+
+          <h3>Nenhum produto encontrado</h3>
+
+          <p>
+            Tente mudar sua busca ou confira outra categoria.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         SOBRE A LOJA
+    =============================== -->
+
+    <section class="about-section section-padding" id="sobre">
+
+      <div class="container about-grid">
+
+        <div class="about-visual">
+
+          <div class="about-logo">
+            <span>SRTA.</span>
+            <strong>CHIC</strong>
+            <small>COISAS DA TATA</small>
+          </div>
+
+        </div>
+
+        <div class="about-content">
+
+          <span class="eyebrow">SOBRE A SRTA. CHIC</span>
+
+          <h2>
+            Feita para quem
+            <span>ama se expressar</span>
+          </h2>
+
+          <p>
+            A Srta. Chic — Coisas da Tata nasceu para reunir
+            produtos especiais e escolhas que combinam com
+            diferentes estilos e momentos.
+          </p>
+
+          <p>
+            Nossa ideia é oferecer uma experiência de compra
+            simples, bonita e acolhedora.
+          </p>
+
+          <a href="#produtos" class="button button-primary">
+            Ver produtos
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         NEWSLETTER / CONTATO
+    =============================== -->
+
+    <section class="contact-section section-padding">
+
+      <div class="container contact-box">
+
+        <div>
+
+          <span class="eyebrow">FALE COM A GENTE</span>
+
+          <h2>
+            Precisa de ajuda?
+          </h2>
+
+          <p>
+            Entre em contato conosco pelo WhatsApp.
+          </p>
+
+        </div>
+
+        <a
+          href="https://wa.me/558199654273"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-light"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+          Falar pelo WhatsApp
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ==============================
+       RODAPÉ
+  =============================== -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+
+        <a href="#inicio" class="brand brand-footer">
+          <span class="brand-small">SRTA.</span>
+          <span class="brand-main">CHIC</span>
+          <span class="brand-subtitle">COISAS DA TATA</span>
+        </a>
+
+        <p>
+          Estilo, carinho e escolhas especiais para você.
+        </p>
+
+        <div class="footer-social" aria-label="Redes sociais">
+          <a href="https://wa.me/558199654273" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/srta.chiccoisasdatata/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+
+
+      </div>
+
+      <div class="footer-column">
+
+        <h3>Links rápidos</h3>
+
+        <a href="#inicio">Início</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre nós</a>
+
+      </div>
+
+      <div class="footer-column">
+
+        <h3>Atendimento</h3>
+
+        <a
+          href="https://wa.me/558199654273"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp
+        </a>
+
+        <a href="#produtos">Catálogo</a>
+        <a href="#sobre">Sobre a loja</a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <p>
+          © <span id="currentYear"></span>
+          Srta. Chic — Coisas da Tata. Todos os direitos reservados.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ==============================
+       CARRINHO
+  =============================== -->
+
+  <div
+    class="cart-overlay hidden"
+    id="cartOverlay"
+    aria-hidden="true"
+  ></div>
+
+  <aside
+    class="cart-drawer"
+    id="cartDrawer"
+    aria-label="Carrinho de compras"
+    aria-hidden="true"
+  >
+
+    <div class="cart-header">
+
+      <div>
+
+        <span class="eyebrow">SEU PEDIDO</span>
+
+        <h2>Meu carrinho</h2>
+
+      </div>
+
+      <button
+        type="button"
+        id="closeCartButton"
+        class="icon-button"
+        aria-label="Fechar carrinho"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+    </div>
+
+    <div class="cart-items" id="cartItems">
+
+      <div class="cart-empty">
+
+        <i class="fa-solid fa-bag-shopping"></i>
+
+        <h3>Seu carrinho está vazio</h3>
+
+        <p>
+          Adicione produtos para começar seu pedido.
+        </p>
+
+        <button
+          type="button"
+          class="button button-primary"
+          id="continueShoppingButton"
+        >
+          Continuar comprando
+        </button>
+
+      </div>
+
+    </div>
+
+    <div class="cart-footer">
+
+      <div class="cart-total-row">
+
+        <span>Subtotal</span>
+
+        <strong id="cartSubtotal">R$ 0,00</strong>
+
+      </div>
+
+      <button
+        type="button"
+        class="button button-primary button-full"
+        id="checkoutButton"
+      >
+        Continuar para o checkout
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <p class="cart-note">
+        O valor final será confirmado antes do pagamento.
+      </p>
+
+    </div>
+
+  </aside>
+
+
+  <!-- ==============================
+       MODAL DO PRODUTO
+  =============================== -->
+
+  <div
+    class="modal hidden"
+    id="productModal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modalProductName"
+  >
+
+    <div class="modal-backdrop" id="productModalBackdrop"></div>
+
+    <div class="modal-content">
+
+      <button
+        type="button"
+        class="modal-close icon-button"
+        id="closeProductModal"
+        aria-label="Fechar produto"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div id="productModalContent">
+        <!-- Conteúdo do produto inserido pelo JavaScript -->
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ==============================
+       CONFIGURAÇÃO E JAVASCRIPT
+  =============================== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <script src="script.js"></script>
+
+
+  <!-- Botões flutuantes de contato -->
+  <div class="social-float" aria-label="Redes sociais e contato">
+    <a class="social-float-link social-whatsapp"
+       href="https://wa.me/558199654273"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Falar pelo WhatsApp"
+       title="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a class="social-float-link social-instagram"
+       href="https://www.instagram.com/srta.chiccoisasdatata/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Instagram"
+       title="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+
+</body>
+</html>
