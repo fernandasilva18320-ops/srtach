@@ -20,9 +20,9 @@
     NUNCA coloque a chave service_role neste arquivo.
 */
 
-const SUPABASE_URL = "https://xiyaaafqqftbjyzflhvq.supabase.co";
+const SUPABASE_URL = "https://zentybajdtrctqfinudc.supabase.co";
 
-const SUPABASE_ANON_KEY = "sb_publishable_lgsdPMDVcTwvfh6NHkAgWA_eODdg0lT";
+const SUPABASE_ANON_KEY = "sb_publishable_0uLVqzKFHplVv1LZq4gesA_bGOetVRa";
 
 
 let supabaseClient = null;
